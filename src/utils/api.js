@@ -14,7 +14,6 @@ export const fetchWeatherByCity = async (city) => {
     });
     return response.data;
   } catch (error) {
-    // You can inspect error.response for more info
     if (error.response && error.response.status === 404) {
       throw new Error('City not found');
     } else {
