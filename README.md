@@ -18,7 +18,7 @@ This is a Weather Dashboard web application built using **React** and **Vite**. 
 
 - React
 - Vite
-- CSS (or Tailwind/CSS framework if used)
+- CSS 
 - OpenWeatherMap API 
 
 ---
